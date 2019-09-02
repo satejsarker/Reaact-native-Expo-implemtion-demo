@@ -4,8 +4,10 @@ import ListScreen from './src/screens/ListScreen';
 import { Provider as PaperProvider } from 'react-native-paper';
 import React, { Component } from 'react';
 import ImageScreen from './src/screens/ImageScreen';
-import Counter from './src/Components/Counter';
+import Counter from './src/components/Counter.js';
 import AwesomeIcon from 'react-native-vector-icons/FontAwesome';
+import ColorScreen from './src/screens/ColorScreen';
+import SquareScreen from './src/screens/SquareScreen';
 
 
 const navigator = createStackNavigator(
@@ -14,6 +16,18 @@ const navigator = createStackNavigator(
       screen:HomeScreen,
       navigationOptions:{
         title:"Home"
+      }
+    },
+    ColorScreen: {
+      screen:ColorScreen,
+      navigationOptions:{
+        title:"ColorScreen"
+      }
+    },
+    SquareScreen: {
+      screen:SquareScreen,
+      navigationOptions:{
+        title:"SquareScreen"
       }
     },
     Counter:{

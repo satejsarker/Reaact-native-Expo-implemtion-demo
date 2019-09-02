@@ -11,8 +11,10 @@ console.log("button pressed-homeScreen")
     <Button icon="list" mode='contained' color="green" onPress={()=>navigation.navigate('List')}>List Screen</Button>
     <Button icon="image" mode='contained' color="yellow" onPress={()=>navigation.navigate('Image')}>Image Screen</Button>
     <Button icon="forward" mode='contained' color="indigo" onPress={()=>navigation.navigate('Counter')}>Counter Screen</Button>
+    <Button icon="camera" mode='contained' color="white" onPress={()=>navigation.navigate('ColorScreen')}>Color Screen</Button>
+    <Button icon="book" mode='contained' color="white" onPress={()=>navigation.navigate('SquareScreen')}>Square Screen</Button>
     <TouchableOpacity onPress={pressButton()}>
-      <Text>List Screen</Text>
+      <Text>HomeScreen</Text>
     </TouchableOpacity>
   </View>)
 };
