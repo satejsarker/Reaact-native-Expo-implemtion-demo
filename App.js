@@ -8,6 +8,7 @@ import Counter from './src/components/Counter.js';
 import AwesomeIcon from 'react-native-vector-icons/FontAwesome';
 import ColorScreen from './src/screens/ColorScreen';
 import SquareScreen from './src/screens/SquareScreen';
+import TextScreen from './src/screens/TextScreen';
 
 
 const navigator = createStackNavigator(
@@ -16,6 +17,12 @@ const navigator = createStackNavigator(
       screen:HomeScreen,
       navigationOptions:{
         title:"Home"
+      }
+    },
+    TextScreen: {
+      screen:TextScreen,
+      navigationOptions:{
+        title:"Text Screen"
       }
     },
     ColorScreen: {
