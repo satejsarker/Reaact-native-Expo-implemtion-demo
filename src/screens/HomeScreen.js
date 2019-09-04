@@ -14,6 +14,7 @@ console.log("button pressed-homeScreen")
     <Button icon="camera" mode='contained' color="white" onPress={()=>navigation.navigate('ColorScreen')}>Color Screen</Button>
     <Button icon="book" mode='contained' color="white" onPress={()=>navigation.navigate('SquareScreen')}>Square Screen</Button>
     <Button  mode='contained' color="black" onPress={()=>navigation.navigate('TextScreen')}>Text Screen</Button>
+    <Button  mode='contained' color="white" onPress={()=>navigation.navigate('BoxScreen')}>Box Screen</Button>
     <TouchableOpacity onPress={pressButton()}>
       <Text>HomeScreen</Text>
     </TouchableOpacity>

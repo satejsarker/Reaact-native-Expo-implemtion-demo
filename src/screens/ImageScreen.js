@@ -1,6 +1,6 @@
 import React from 'react'
 import { View, Text ,StyleSheet,TouchableOpacity,ScrollView} from 'react-native'
-import ImageDetails from '../Components/ImageDetails';
+import ImageDetails from '../components/ImageDetails'
 
 let images=[
     {title:"forest", "img":'https://www.searanchescape.com/wp-content/uploads/2019/05/ca9721.jpg'},
